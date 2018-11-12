@@ -374,9 +374,17 @@ h2.section-title {
 
 .section header .date {
     font-size: 1rem;
-    display: inline-table;
-    padding: .1em 0;
+    display: block;
+    padding-left: 1rem;
+    float: right;
     font-weight: 600;
+    font-style: italic;
+}
+
+.section header .date.date--ed {
+  display: inline;
+  padding: 0;
+  float: none;
 }
 
 ul.keywords,
@@ -664,7 +672,7 @@ ul.courses li:hover {
     }
     .section header .date {
         float: right;
-        padding: .2em;
+        padding: 0;
     }
     .display {
         display: none;
