@@ -778,3 +778,14 @@ ul.courses li:hover {
         opacity: 1 !important;
     }
 }
+
+.png-icon-container {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 18px;
+}
+
+.png-icon {
+  display: block;
+  width: 100%;
+}
